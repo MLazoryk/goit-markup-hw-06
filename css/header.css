@@ -7,14 +7,15 @@
 .header-container {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header .logo-header {
-  margin-right: 76px;
+  margin-right: auto;
 }
 
 .nav {
-  margin-right: auto;
+  display: none;
 }
 
 .nav-list {
@@ -59,6 +60,10 @@
   color: #404bbf;
 }
 
+.address {
+  display: none;
+}
+
 .address-list {
   display: flex;
   gap: 40px;
@@ -77,4 +82,26 @@
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+.mobile-menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .nav {
+    display: block;
+  }
+  .address {
+    display: block;
+  }
+  .mobile-menu-toggle {
+    display: none;
+  }
 }
