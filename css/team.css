@@ -73,4 +73,18 @@
   background-color: #404bbf;
 }
 
-.team
+.team-socials-link svg {
+  fill: #f4f4fd;
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .team-list {
+    gap: 64px 24px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team-list {
+    gap: 24px;
+  }
+}
