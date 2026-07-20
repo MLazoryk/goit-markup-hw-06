@@ -144,7 +144,6 @@
   fill: #f4f4fd;
 }
 
-/* Tablet and above */
 @media (min-width: 768px) {
   .mobile-menu {
     display: none;
