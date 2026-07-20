@@ -18,6 +18,13 @@
 @media (min-width: 768px) {
   .header .logo-header {
     padding: 24px 0;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .header .logo-header {
+    margin-right: 76px;
   }
 }
 
@@ -28,7 +35,6 @@
 @media (min-width: 768px) {
   .nav {
     display: block;
-    margin-right: 40px;
   }
 }
 
