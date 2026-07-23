@@ -18,7 +18,11 @@
 @media (min-width: 768px) {
   .header .logo-header {
     padding: 24px 0;
+<<<<<<< HEAD
     margin-right: 120px;
+=======
+    margin-right: 40px;
+>>>>>>> 055a52e9d9c71e90ff767671fd566f377938534d
   }
 }
 
@@ -144,4 +148,8 @@
   .mobile-menu-toggle {
     display: none;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 055a52e9d9c71e90ff767671fd566f377938534d
