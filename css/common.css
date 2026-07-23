@@ -4,17 +4,14 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 h1,
 h2,
 h3,
@@ -23,21 +20,17 @@ h5,
 h6 {
   margin: 0;
 }
-
 p {
   margin: 0;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 button {
   cursor: pointer;
 }
-
 .container {
   max-width: 320px;
   padding-left: 16px;
@@ -45,7 +38,6 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -53,7 +45,6 @@ button {
     padding-right: 16px;
   }
 }
-
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -61,19 +52,16 @@ button {
     padding-right: 15px;
   }
 }
-
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-
 @media (min-width: 1158px) {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 }
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -83,15 +71,12 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
 }
-
 .logo .logo-web {
   color: #4d5ae5;
 }
-
 .address {
   font-style: normal;
 }
-
 .sr-only {
   position: absolute;
   white-space: nowrap;
