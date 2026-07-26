@@ -14,7 +14,7 @@
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 72px;
 }
 
@@ -22,7 +22,7 @@
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-start;
     gap: 72px 24px;
     max-width: 584px;
     margin: 0 auto;
@@ -41,13 +41,12 @@
 .footer-brand {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .footer-brand {
-    align-items: flex-start;
     width: auto;
   }
 }
@@ -74,25 +73,18 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .footer-text {
-    text-align: left;
-  }
+  text-align: left;
 }
 
 .footer-socials {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .footer-socials {
-    align-items: flex-start;
     width: auto;
   }
 }
@@ -104,13 +96,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .footer-socials-title {
-    text-align: left;
-  }
+  text-align: left;
 }
 
 .footer-socials-list {
@@ -141,14 +127,13 @@
 .footer-subscribe {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .footer-subscribe {
     flex-basis: 100%;
-    align-items: flex-start;
   }
 }
 
@@ -156,7 +141,6 @@
   .footer-subscribe {
     flex-basis: auto;
     margin-left: auto;
-    align-items: flex-start;
   }
 }
 
@@ -167,13 +151,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .footer-subscribe-title {
-    text-align: left;
-  }
+  text-align: left;
 }
 
 .subscribe-form {
@@ -182,7 +160,7 @@
   gap: 16px;
   width: 100%;
   max-width: 288px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media (min-width: 768px) {
